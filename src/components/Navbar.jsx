@@ -85,14 +85,14 @@ export default function Navbar() {
           >
             <span
               style={{
-                width: "40px",
-                height: "40px",
-                borderRadius: "10px",
+                width: "32px",
+                height: "32px",
+                borderRadius: "8px",
                 background: "var(--accent)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: "16px",
+                fontSize: "14px",
                 fontWeight: "700",
                 color: "#0a0a0a",
               }}
@@ -100,7 +100,7 @@ export default function Navbar() {
               A
             </span>
             <span
-              style={{ fontWeight: "600", fontSize: "20px", color: "#e5e5e5" }}
+              style={{ fontWeight: "600", fontSize: "15px", color: "#e5e5e5" }}
             >
               Armaghan
             </span>
@@ -124,9 +124,9 @@ export default function Navbar() {
                   onClick={(e) => handleLink(e, link.href)}
                   style={{
                     textDecoration: "none",
-                    fontSize: "18px",
+                    fontSize: "14px",
                     fontWeight: "500",
-                    padding: "10px 16px",
+                    padding: "8px 14px",
                     borderRadius: "8px",
                     color: active === link.href ? "var(--accent)" : "#aaa",
                     background:
@@ -152,9 +152,9 @@ export default function Navbar() {
                 onClick={(e) => handleLink(e, "#contact")}
                 style={{
                   textDecoration: "none",
-                  fontSize: "18px",
+                  fontSize: "14px",
                   fontWeight: "600",
-                  padding: "10px 16px",
+                  padding: "8px 14px",
                   borderRadius: "8px",
                   background: "var(--accent)",
                   color: "#0a0a0a",

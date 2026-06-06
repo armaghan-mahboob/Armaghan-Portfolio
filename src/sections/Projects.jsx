@@ -206,7 +206,7 @@ export default function Projects() {
                   <span
                     key={tag}
                     style={{
-                      fontSize: "16px",
+                      fontSize: "14px",
                       fontWeight: "500",
                       padding: "4px 12px",
                       borderRadius: "6px",
@@ -317,7 +317,7 @@ export default function Projects() {
 
               <p
                 style={{
-                  fontSize: "16px",
+                  fontSize: "14px",
                   color: "#666",
                   lineHeight: "1.75",
                   marginBottom: "16px",
@@ -331,7 +331,7 @@ export default function Projects() {
                   <span
                     key={tag}
                     style={{
-                      fontSize: "16px",
+                      fontSize: "12px",
                       fontWeight: "500",
                       padding: "3px 10px",
                       borderRadius: "6px",

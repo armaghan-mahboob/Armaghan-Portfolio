@@ -148,7 +148,7 @@ export default function About() {
                   {stat.value}
                 </div>
                 <div
-                  style={{ fontSize: "16px", color: "#555", marginTop: "2px" }}
+                  style={{ fontSize: "13px", color: "#555", marginTop: "2px" }}
                 >
                   {stat.label}
                 </div>
@@ -199,7 +199,7 @@ export default function About() {
             >
               <p
                 style={{
-                  fontSize: "14px",
+                  fontSize: "11px",
                   fontWeight: "600",
                   letterSpacing: "0.1em",
                   color: "var(--accent)",
@@ -214,9 +214,9 @@ export default function About() {
                   <span
                     key={item}
                     style={{
-                      fontSize: "14px",
+                      fontSize: "13px",
                       fontWeight: "500",
-                      padding: "12px 12px",
+                      padding: "6px 12px",
                       borderRadius: "6px",
                       background: "rgba(45,212,191,0.06)",
                       border: "1px solid rgba(45,212,191,0.12)",

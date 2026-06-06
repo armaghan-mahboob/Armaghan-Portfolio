@@ -65,7 +65,7 @@ export default function Contact() {
         </h2>
         <p
           style={{
-            fontSize: "18px",
+            fontSize: "16px",
             color: "#666",
             lineHeight: "1.8",
             maxWidth: "480px",
@@ -136,7 +136,7 @@ export default function Contact() {
             <div style={{ textAlign: "left" }}>
               <div
                 style={{
-                  fontSize: "16px",
+                  fontSize: "12px",
                   color: "#555",
                   fontWeight: "500",
                   marginBottom: "2px",
@@ -145,7 +145,7 @@ export default function Contact() {
                 {link.label}
               </div>
               <div
-                style={{ fontSize: "18px", color: "#ccc", fontWeight: "500" }}
+                style={{ fontSize: "15px", color: "#ccc", fontWeight: "500" }}
               >
                 {link.value}
               </div>

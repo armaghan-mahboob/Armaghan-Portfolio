@@ -72,13 +72,13 @@ export default function Footer() {
         </div>
 
         {/* Credit */}
-        <p style={{ fontSize: "16px", color: "grey", margin: 0 }}>
+        <p style={{ fontSize: "13px", color: "grey", margin: 0 }}>
           Designed & built by{" "}
           <span
             style={{
               color: "var(--accent)",
               fontWeight: "500",
-              fontSize: "18px",
+              fontSize: "16px",
             }}
           >
             Armaghan

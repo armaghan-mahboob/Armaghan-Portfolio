@@ -66,7 +66,7 @@ export default function Hero() {
           <span
             style={{
               display: "inline-block",
-              fontSize: "14px",
+              fontSize: "12px",
               fontWeight: "500",
               letterSpacing: "0.08em",
               padding: "8px 14px",
@@ -85,7 +85,7 @@ export default function Hero() {
         <motion.h1
           {...fadeUp(0.2)}
           style={{
-            fontSize: "clamp(42px, 8vw, 80px)",
+            fontSize: "clamp(42px, 5vw, 80px)",
             fontWeight: "800",
             lineHeight: "1.1",
             margin: "0 0 16px",
@@ -110,10 +110,10 @@ export default function Hero() {
         <motion.p
           {...fadeUp(0.3)}
           style={{
-            fontSize: "clamp(18px, 3vw, 24px)",
+            fontSize: "clamp(18px, 3vw, 22px)",
             fontWeight: "500",
             color: "#888",
-            margin: "0 0 16px",
+            margin: "0 0 10px",
           }}
         >
           Full-Stack Developer & CS Graduate
@@ -123,10 +123,10 @@ export default function Hero() {
         <motion.p
           {...fadeUp(0.4)}
           style={{
-            fontSize: "18px",
+            fontSize: "16px",
             color: "#666",
             lineHeight: "1.75",
-            margin: "0 0 40px",
+            margin: "0 0 20px",
             maxWidth: "600px",
             marginLeft: "auto",
             marginRight: "auto",
@@ -145,7 +145,7 @@ export default function Hero() {
             gap: "12px",
             justifyContent: "center",
             flexWrap: "wrap",
-            marginBottom: "48px",
+            marginBottom: "35px",
           }}
         >
           <a

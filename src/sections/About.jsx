@@ -88,11 +88,11 @@ export default function About() {
             }}
           >
             <img
-              src="/me.png"
+              src="/me2.png"
               alt="Armaghan"
               style={{
                 width: "200px",
-                height: "200px",
+                height: "170px",
                 objectFit: "cover",
               }}
             />
@@ -134,7 +134,7 @@ export default function About() {
           <div style={{ display: "flex", gap: "32px", flexWrap: "wrap" }}>
             {[
               { value: "3.5", label: "CGPA" },
-              { value: "5+", label: "Projects" },
+              { value: "10+", label: "Projects" },
               { value: "2026", label: "Graduated" },
             ].map((stat) => (
               <div key={stat.label}>

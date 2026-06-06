@@ -88,7 +88,7 @@ export default function About() {
             }}
           >
             <img
-              src="/src/assets/me.png"
+              src="/me.png"
               alt="Armaghan"
               style={{
                 width: "200px",

@@ -22,18 +22,9 @@ const projects = [
     description:
       "A Redux-powered task manager with full CRUD operations, local persistence, and a clean glassmorphism UI built with React and Tailwind CSS.",
     tags: ["React", "Vite", "Tailwind CSS", "OpenWeatherMap API"],
-    github: "https://github.com/armaghan-mahboob",
-    live: null,
+    github: "https://github.com/armaghan-mahboob/React-Practice/tree/main/Todo",
+    live: "https://todo-with-redux-mani.vercel.app/",
     featured: true,
-  },
-  {
-    title: "Naat Khuwaan Platform",
-    description:
-      "A web platform for discovering and streaming Naat recitations. Features user signup/login, dynamic content management for Naat uploads, and structured searching/listing/filtering of reciters.",
-    tags: ["C#", "ASP.NET MVC", "SQL Server", "REST API"],
-    github: "https://github.com/armaghan-mahboob",
-    live: null,
-    featured: false,
   },
   {
     title: "Auth Starter SaaS",
@@ -49,6 +40,16 @@ const projects = [
     description:
       "A clean weather app with live data from OpenWeatherMap API, glassmorphism UI, city search, and dynamic backgrounds based on weather conditions.",
     tags: ["React", "Vite", "Tailwind CSS", "OpenWeatherMap API"],
+    github:
+      "https://github.com/armaghan-mahboob/React-Practice/tree/main/Weather",
+    live: "https://weather-mani.vercel.app/",
+    featured: false,
+  },
+  {
+    title: "Naat Khuwaan Platform",
+    description:
+      "A web platform for discovering and streaming Naat recitations. Features user signup/login, dynamic content management for Naat uploads, and structured searching/listing/filtering of reciters.",
+    tags: ["C#", "ASP.NET MVC", "SQL Server", "REST API"],
     github: "https://github.com/armaghan-mahboob",
     live: null,
     featured: false,
